@@ -37,6 +37,7 @@ function App() {
 		let { value } = e.target;
 		if (city && city === value) {
 			setCity('');
+			setData({});
 		} else {
 			setCity(value);
 		}
